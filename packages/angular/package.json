@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "@angular/common": "7",
-    "@angular/core": "7",
+    "@angular/core": "11",
     "@angular/forms": "7",
     "@types/dragula": "*",
     "@types/highlight.js": "*",

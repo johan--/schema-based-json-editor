@@ -9,6 +9,13 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/core@11":
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.0.5.tgz#b8c448c3cd4f6dae7327cc1ba4ee2aa29c8dbc26"
+  integrity sha512-XAXWQi7R3ucZXQwx9QK5jSKJeQyRJ53u2dQDpr7R5stzeCy1a5hrNOkZLg9zOTTPcth/6+FrOrRZP9SMdxtw3w==
+  dependencies:
+    tslib "^2.0.0"
+
 "@angular/core@7":
   version "7.2.8"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-7.2.8.tgz#6586d9b6c6321c80119b3f3e2bd0edbb32d0b649"
@@ -128,6 +135,13 @@ file-uploader-angular-component@7:
     "@angular/core" "7"
     file-uploader-component "^7.4.1"
 
+file-uploader-component@7:
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/file-uploader-component/-/file-uploader-component-7.6.1.tgz#b6569487a428d35556c4d9192e6d149db4c2031a"
+  integrity sha512-fZaovH0O2vZhBXk9l6BfpWcHMbZSQUA3E/mgPsER3b5X9KbjHnKsxcvbWi9X1rs/2FOGuvv4474si5YT5AJHRg==
+  dependencies:
+    tslib "1"
+
 file-uploader-component@^7.4.1:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/file-uploader-component/-/file-uploader-component-7.4.1.tgz#4ea39dbfb38475a89a2f7ea1fc2888f5aabe5cb6"
@@ -154,6 +168,26 @@ linkify-it@^2.0.0:
   dependencies:
     uc.micro "^1.0.1"
 
+lodash.isinteger@4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz#619c0af3d03f8b04c31f5882840b77b11cd68343"
+  integrity sha512-DBwtEWN2caHQ9/imiNeEA5ys1JoRtRfY3d7V9wkqtbycnAmTvRRmbHKDV4a0EYc678/dia0jrte4tjYwVBaZUA==
+
+lodash.isobject@3:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lodash.isobject/-/lodash.isobject-3.0.2.tgz#3c8fb8d5b5bf4bf90ae06e14f2a530a4ed935e1d"
+  integrity sha512-3/Qptq2vr7WeJbB4KHUSKlq8Pl7ASXi3UG6CMbBm8WRtXi8+GHm7mKaU3urfpSEzWe2wCIChs6/sdocUsTKJiA==
+
+lodash.tointeger@4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lodash.tointeger/-/lodash.tointeger-4.0.4.tgz#65e655acaa724e26d3fef57effc46970e1cd17e6"
+  integrity sha512-UQbTdxNHMm4jGlf+LtxB5ZPJFufuND2gZCYjMxSOUmcxfq350x9KnwL3EzxDDNth8fOZ9wpwDTGWZQnFgdV3gg==
+
+lodash.tonumber@4:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
+  integrity sha512-SY0SwuPOHRwKcCNTdsntPYb+Zddz5mDUIVFABzRMqmAiL41pMeyoQFGxYAw5zdc9NnH4pbJqiqqp5ckfxa+zSA==
+
 markdown-it@8.4.2:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
@@ -174,6 +208,13 @@ markdown-tip-angular@6:
     "@angular/core" "7"
     "@angular/forms" "7"
     markdown-tip "^6.4.1"
+
+markdown-tip@6:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/markdown-tip/-/markdown-tip-6.5.1.tgz#b38e0cbd912bcaf86231f156f56cffd50265b0ec"
+  integrity sha512-Vkd7MtGxdJHLOVI8fFdfOj3wriBP5IXBuc8NG48fS26X8IsB8iX6ZDx3jwDM2P+ZiLa63Jl4rODJT8oOyWP3uA==
+  dependencies:
+    tslib "1"
 
 markdown-tip@^6.4.1:
   version "6.4.1"
@@ -197,12 +238,34 @@ monaco-editor@0.16.0:
   resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.16.0.tgz#83538173c2427f62e0ea3e19a4864742ea457cd9"
   integrity sha512-a0ZksW1C5gTXOOJR/guKwzYrLJkJtMqzPb/W81YFSFHwbZ/ecVWdNguUkuyUuchzeKJRwqcizgVx++G9wmfofQ==
 
+monaco-editor@0.19:
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.19.3.tgz#1c994b3186c00650dbcd034d5370d46bf56c0663"
+  integrity sha512-2n1vJBVQF2Hhi7+r1mMeYsmlf18hjVb6E0v5SoMZyb4aeOmYPKun+CE3gYpiNA1KEvtSdaDHFBqH9d7Wd9vREg==
+
 rxjs@6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.4.0.tgz#f3bb0fe7bda7fb69deac0c16f17b50b0b8790504"
   integrity sha512-Z9Yfa11F6B9Sg/BK9MnqnQ+aQYicPLtilXBp2yUtDt2JRCE0h26d33EnfO3ZxoNxG0T92OUucP3Ct7cpfkdFfw==
   dependencies:
     tslib "^1.9.0"
+
+schema-based-json-editor@^7.20.2:
+  version "7.25.2"
+  resolved "https://registry.yarnpkg.com/schema-based-json-editor/-/schema-based-json-editor-7.25.2.tgz#fcd298e389dc86812a18b54d1899894d4905200d"
+  integrity sha512-5Gvia+M/gjzMlkSV1DeqKCC0dkzHYC8L0koX0lpZeqIqsXHXQPE0mkMDAp2wBn/T9hxhfT/x1xzk/snMZW5j3g==
+  dependencies:
+    "@types/dragula" "*"
+    "@types/highlight.js" "*"
+    file-uploader-component "7"
+    lodash.isinteger "4"
+    lodash.isobject "3"
+    lodash.tointeger "4"
+    lodash.tonumber "4"
+    markdown-tip "6"
+    monaco-editor "0.19"
+    select2-component "5"
+    tslib "1"
 
 select2-angular-component@5:
   version "5.5.1"
@@ -213,6 +276,14 @@ select2-angular-component@5:
     "@angular/core" "7"
     "@angular/forms" "7"
     select2-component "^5.5.1"
+
+select2-component@5:
+  version "5.10.4"
+  resolved "https://registry.yarnpkg.com/select2-component/-/select2-component-5.10.4.tgz#c72b6d2788482ad7b210d5e3f4b7da54f1824e34"
+  integrity sha512-RlAculZYXpPAji0rpHcW323xAYTkEBiJ4tNg1dJl/8iQnMNmZlvQIEj5Ig/pZWzehzkWr2iskpXs9Lrl0bFhHw==
+  dependencies:
+    "@types/node" "*"
+    tslib "2"
 
 select2-component@^5.5.1:
   version "5.5.1"
@@ -236,6 +307,11 @@ tslib@1, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2, tslib@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
