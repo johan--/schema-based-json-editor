@@ -128,6 +128,13 @@ file-uploader-angular-component@7:
     "@angular/core" "7"
     file-uploader-component "^7.4.1"
 
+file-uploader-component@7:
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/file-uploader-component/-/file-uploader-component-7.6.1.tgz#b6569487a428d35556c4d9192e6d149db4c2031a"
+  integrity sha512-fZaovH0O2vZhBXk9l6BfpWcHMbZSQUA3E/mgPsER3b5X9KbjHnKsxcvbWi9X1rs/2FOGuvv4474si5YT5AJHRg==
+  dependencies:
+    tslib "1"
+
 file-uploader-component@^7.4.1:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/file-uploader-component/-/file-uploader-component-7.4.1.tgz#4ea39dbfb38475a89a2f7ea1fc2888f5aabe5cb6"
@@ -141,11 +148,9 @@ highlight.js@9.15.6:
   integrity sha512-zozTAWM1D6sozHo8kqhfYgsac+B+q0PmsjXeyDrYIHHcBN0zTVT66+s2GW1GZv7DbyaROdLXKdabwS/WqPyIdQ==
 
 json5@2:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.0.tgz#e7a0c62c48285c628d20a10b85c89bb807c32850"
-  integrity sha512-8Mh9h6xViijj36g7Dxi+Y4S6hNGV96vcJZr/SrlHh1LR/pEn/8j/+qIBbs44YKl69Lrfctp4QD+AdWLTMqEZAQ==
-  dependencies:
-    minimist "^1.2.0"
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.2.tgz#64471c5bdcc564c18f7c1d4df2e2297f2457c5ab"
+  integrity sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==
 
 linkify-it@^2.0.0:
   version "2.1.0"
@@ -153,6 +158,26 @@ linkify-it@^2.0.0:
   integrity sha512-4REs8/062kV2DSHxNfq5183zrqXMl7WP0WzABH9IeJI+NLm429FgE1PDecltYfnOoFDFlZGh2T8PfZn0r+GTRg==
   dependencies:
     uc.micro "^1.0.1"
+
+lodash.isinteger@4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz#619c0af3d03f8b04c31f5882840b77b11cd68343"
+  integrity sha512-DBwtEWN2caHQ9/imiNeEA5ys1JoRtRfY3d7V9wkqtbycnAmTvRRmbHKDV4a0EYc678/dia0jrte4tjYwVBaZUA==
+
+lodash.isobject@3:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lodash.isobject/-/lodash.isobject-3.0.2.tgz#3c8fb8d5b5bf4bf90ae06e14f2a530a4ed935e1d"
+  integrity sha512-3/Qptq2vr7WeJbB4KHUSKlq8Pl7ASXi3UG6CMbBm8WRtXi8+GHm7mKaU3urfpSEzWe2wCIChs6/sdocUsTKJiA==
+
+lodash.tointeger@4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lodash.tointeger/-/lodash.tointeger-4.0.4.tgz#65e655acaa724e26d3fef57effc46970e1cd17e6"
+  integrity sha512-UQbTdxNHMm4jGlf+LtxB5ZPJFufuND2gZCYjMxSOUmcxfq350x9KnwL3EzxDDNth8fOZ9wpwDTGWZQnFgdV3gg==
+
+lodash.tonumber@4:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
+  integrity sha512-SY0SwuPOHRwKcCNTdsntPYb+Zddz5mDUIVFABzRMqmAiL41pMeyoQFGxYAw5zdc9NnH4pbJqiqqp5ckfxa+zSA==
 
 markdown-it@8.4.2:
   version "8.4.2"
@@ -175,6 +200,13 @@ markdown-tip-angular@6:
     "@angular/forms" "7"
     markdown-tip "^6.4.1"
 
+markdown-tip@6:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/markdown-tip/-/markdown-tip-6.5.1.tgz#b38e0cbd912bcaf86231f156f56cffd50265b0ec"
+  integrity sha512-Vkd7MtGxdJHLOVI8fFdfOj3wriBP5IXBuc8NG48fS26X8IsB8iX6ZDx3jwDM2P+ZiLa63Jl4rODJT8oOyWP3uA==
+  dependencies:
+    tslib "1"
+
 markdown-tip@^6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/markdown-tip/-/markdown-tip-6.4.1.tgz#b30c4aa264759145710d8c9fb3a0b117ebe63b24"
@@ -187,15 +219,15 @@ mdurl@^1.0.1:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
-
 monaco-editor@0.16.0:
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.16.0.tgz#83538173c2427f62e0ea3e19a4864742ea457cd9"
   integrity sha512-a0ZksW1C5gTXOOJR/guKwzYrLJkJtMqzPb/W81YFSFHwbZ/ecVWdNguUkuyUuchzeKJRwqcizgVx++G9wmfofQ==
+
+monaco-editor@0.19:
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.19.3.tgz#1c994b3186c00650dbcd034d5370d46bf56c0663"
+  integrity sha512-2n1vJBVQF2Hhi7+r1mMeYsmlf18hjVb6E0v5SoMZyb4aeOmYPKun+CE3gYpiNA1KEvtSdaDHFBqH9d7Wd9vREg==
 
 rxjs@6.4.0:
   version "6.4.0"
@@ -203,6 +235,23 @@ rxjs@6.4.0:
   integrity sha512-Z9Yfa11F6B9Sg/BK9MnqnQ+aQYicPLtilXBp2yUtDt2JRCE0h26d33EnfO3ZxoNxG0T92OUucP3Ct7cpfkdFfw==
   dependencies:
     tslib "^1.9.0"
+
+schema-based-json-editor@^7.20.2:
+  version "7.25.2"
+  resolved "https://registry.yarnpkg.com/schema-based-json-editor/-/schema-based-json-editor-7.25.2.tgz#fcd298e389dc86812a18b54d1899894d4905200d"
+  integrity sha512-5Gvia+M/gjzMlkSV1DeqKCC0dkzHYC8L0koX0lpZeqIqsXHXQPE0mkMDAp2wBn/T9hxhfT/x1xzk/snMZW5j3g==
+  dependencies:
+    "@types/dragula" "*"
+    "@types/highlight.js" "*"
+    file-uploader-component "7"
+    lodash.isinteger "4"
+    lodash.isobject "3"
+    lodash.tointeger "4"
+    lodash.tonumber "4"
+    markdown-tip "6"
+    monaco-editor "0.19"
+    select2-component "5"
+    tslib "1"
 
 select2-angular-component@5:
   version "5.5.1"
@@ -213,6 +262,14 @@ select2-angular-component@5:
     "@angular/core" "7"
     "@angular/forms" "7"
     select2-component "^5.5.1"
+
+select2-component@5:
+  version "5.10.4"
+  resolved "https://registry.yarnpkg.com/select2-component/-/select2-component-5.10.4.tgz#c72b6d2788482ad7b210d5e3f4b7da54f1824e34"
+  integrity sha512-RlAculZYXpPAji0rpHcW323xAYTkEBiJ4tNg1dJl/8iQnMNmZlvQIEj5Ig/pZWzehzkWr2iskpXs9Lrl0bFhHw==
+  dependencies:
+    "@types/node" "*"
+    tslib "2"
 
 select2-component@^5.5.1:
   version "5.5.1"
@@ -236,6 +293,11 @@ tslib@1, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
+  integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
